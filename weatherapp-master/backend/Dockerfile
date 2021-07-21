@@ -1,4 +1,4 @@
  FROM node:14
  COPY . .
- RUN npm start
+ RUN npm install
  CMD ["node", "src/index.js"]
